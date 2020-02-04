@@ -1,0 +1,135 @@
+:root {
+    --blue-color: rgb(159, 201, 255);
+    --blue-highlight: rgb(83, 158, 255);
+    --gray-color: rgb(92, 92, 92);
+    --dark-color: rgb(53, 53, 53);
+    --font-color: rgb(224, 224, 224);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--gray-color);
+    color: var(--font-color);
+}
+p#breadcrumb {
+    background-color: var(--dark-color);
+}
+#menu {
+    background-color: var(--dark-color);
+}
+#menu h1 {
+    background-color: var(--dark-color);
+}
+input[type=submit] {
+    padding: 0.5em 1em;
+    color: var(--blue-color);
+    background-color: var(--dark-color);
+    border: none;
+    border-radius: 0.3em;
+}
+input[type=submit]:hover {
+    cursor: pointer;
+    color: var(--blue-highlight);
+}
+input[type=search] {
+    color: var(--font-color);
+    background-color: var(--gray-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 0.3em;
+    padding: 0.2em 0.5em;
+}
+input[type=number] {
+    color: var(--font-color);
+    background-color: var(--dark-color);
+    border: none;
+    border-radius: 0.3em;
+}
+.size {
+    padding: 0.3em 0.5em;
+    min-width: 5em;
+}
+select {
+    background-color: var(--dark-color);
+    color: var(--font-color);
+    border: 1px solid var(--gray-color);
+    border-radius: 0.3em;
+    padding: 0.2em;
+    appearance: none;
+}
+select:hover {
+    border-color: var(--font-color);
+}
+a, a:visited {
+    color: var(--blue-color);
+}
+a:link:hover, a:visited:hover {
+    color: var(--blue-highlight);
+    text-decoration: none;
+}
+#content h2 {
+    background-color: var(--blue-color);
+    font-size: 1.2em;
+    border: none;
+    box-shadow: 1px 1px 5px var(--dark-color);
+    border-radius: 0.3em;
+}
+table {
+    margin: 0;
+    overflow-x: auto;
+}
+thead {
+    padding: 0.2em;
+    font-size: 1.3em;
+}
+thead td, thead th {
+    border-bottom: 1px solid var(--font-color);
+    background-color: var(--dark-color);
+}
+td, th {
+    border: 1px solid var(--dark-color);
+    line-height: 1.6em;
+}
+tr, th, .odd td {
+    background-color: var(--dark-color);
+}
+tr:hover {
+    background-color: var(--dark-color);
+}
+.footer {
+    padding: 0.5em;
+    position: static;
+    margin-right: auto;
+    border-top: 1px solid var(--gray-color);
+    width: 100%;
+    background-color: var(--dark-color);
+}
+.footer div {
+    display: inline;
+    background-color: var(--dark-color);
+}
+fieldset {
+    border: 1px solid var(--gray-color);
+}
+legend {
+    color: var(--font-color);
+}
+#logins a, #tables a, #tables span {
+    background-color: var(--dark-color);
+}
+.js .checkable .checked td, .js .checkable .checked th {
+    background-color: var(--dark-color);
+}
+tbody tr:hover td, tbody tr:hover th {
+    background-color: var(--gray-color);
+}
+code {
+    background-color: var(--dark-color);
+}
+textarea {
+    background-color: var(--dark-color);
+    color: var(--font-color);
+    font-size: 1.5em;
+}
