@@ -1,6 +1,8 @@
 {
     "name": "archeloth/adminer-theme",
     "type": "theme",
+    "description": "Dark theme for Adminer",
+    "version": "1.0.0",
     "require": {
         "vrana/adminer": "*"
     },
