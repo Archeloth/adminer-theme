@@ -1,0 +1,14 @@
+{
+    "name": "archeloth/adminer-theme",
+    "type": "theme",
+    "require": {
+        "vrana/adminer": "*"
+    },
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Radován Barnabás",
+            "email": "r.barnabas96@gmail.com"
+        }
+    ]
+}
